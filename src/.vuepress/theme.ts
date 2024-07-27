@@ -1,85 +1,105 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  // hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "坐轩听雨",
+    url: "https://iglooblog.top",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "passwordgloo/igloo",
 
   docsDir: "src",
 
-  locales: {
-    "/": {
-      // navbar
-      navbar: enNavbar,
+  // navbar
+  navbar,
 
-      // sidebar
-      sidebar: enSidebar,
+  // sidebar
+  sidebar,
 
-      footer: "Default footer",
+  footer: "Default footer",
 
-      displayFooter: true,
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
-  },
+  displayFooter: true,
 
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
     },
   },
 
+  blog: {
+    description: "A FrontEnd programmer",
+    intro: "/intro.html",
+    medias: {
+      Baidu: "https://example.com",
+      BiliBili: "https://example.com",
+      Bitbucket: "https://example.com",
+      Dingding: "https://example.com",
+      Discord: "https://example.com",
+      Dribbble: "https://example.com",
+      Email: "mailto:info@example.com",
+      Evernote: "https://example.com",
+      Facebook: "https://example.com",
+      Flipboard: "https://example.com",
+      Gitee: "https://example.com",
+      GitHub: "https://example.com",
+      Gitlab: "https://example.com",
+      Gmail: "mailto:info@example.com",
+      Instagram: "https://example.com",
+      Lark: "https://example.com",
+      Lines: "https://example.com",
+      Linkedin: "https://example.com",
+      Pinterest: "https://example.com",
+      Pocket: "https://example.com",
+      QQ: "https://example.com",
+      Qzone: "https://example.com",
+      Reddit: "https://example.com",
+      Rss: "https://example.com",
+      Steam: "https://example.com",
+      Twitter: "https://example.com",
+      Wechat: "https://example.com",
+      Weibo: "https://example.com",
+      Whatsapp: "https://example.com",
+      Youtube: "https://example.com",
+      Zhihu: "https://example.com",
+      VuePressThemeHope: {
+        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+        link: "https://theme-hope.vuejs.press",
+      },
+    },
+  },
+
+  metaLocales: {
+    editLink: "流金",
+  },
+
+  // enable it to preview all changes in time
+  // hotReload: true,
+
   plugins: {
+    blog: true,
+
+    // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Waline",
+    //   serverURL: "https://waline-comment.vuejs.press",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],
     },
 
-    // All features are enabled for demo, only preserve features you need here
+    // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
@@ -112,46 +132,46 @@ export default hopeTheme({
       tasklist: true,
       vPre: true,
 
-      // Install chart.js before enabling it
+      // install chart.js before enabling it
       // chart: true,
 
       // insert component easily
 
-      // Install echarts before enabling it
+      // install echarts before enabling it
       // echarts: true,
 
-      // Install flowchart.ts before enabling it
+      // install flowchart.ts before enabling it
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
       // gfm: true,
 
-      // Install katex before enabling it
+      // install katex before enabling it
       // katex: true,
 
-      // Install mathjax-full before enabling it
-      // mathjax: true,
+      // install mathjax-full before enabling it
+      mathjax: true,
 
-      // Install mermaid before enabling it
+      // install mermaid before enabling it
       // mermaid: true,
 
       // playground: {
       //   presets: ["ts", "vue"],
       // },
 
-      // Install reveal.js before enabling it
+      // install reveal.js before enabling it
       // revealJs: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
 
-      // Install @vue/repl before enabling it
+      // install @vue/repl before enabling it
       // vuePlayground: true,
 
-      // Install sandpack-vue3 before enabling it
+      // install sandpack-vue3 before enabling it
       // sandpack: true,
     },
 
-    // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
+    // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,

@@ -1,12 +1,12 @@
 import { defineClientConfig } from "vuepress/client";
-import { hasGlobalComponent } from "/Users/liuguanglu/igloo/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.39_vuepress@2.0.0-rc.14_@vuepress+bundler-vite@2.0.0-rc.14_@types+n_zoeplq4q77s26ck7hsqb3frm74/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "/Users/liuguanglu/igloo/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.39_typescript@5.5.4_vuepress@2.0.0-rc.14_@vuepress+bundler-vite@2.0_yadtsgln6ojn724djxzgbz456y/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useScriptTag } from "/Users/liuguanglu/igloo/node_modules/.pnpm/@vueuse+core@10.11.0_vue@3.4.34/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_vuepress@2.0.0-rc.14_@vuepress+bundler-vite@2.0.0-rc.1_x2hhkf5k5v5e6vmvy456np4tku/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import Badge from "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_vuepress@2.0.0-rc.14_@vuepress+bundler-vite@2.0.0-rc.1_x2hhkf5k5v5e6vmvy456np4tku/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import VPCard from "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_vuepress@2.0.0-rc.14_@vuepress+bundler-vite@2.0.0-rc.1_x2hhkf5k5v5e6vmvy456np4tku/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import { useScriptTag } from "/Users/liuguanglu/igloo/node_modules/.pnpm/@vueuse+core@10.11.0_vue@3.4.34_typescript@5.5.4_/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_typescript@5.5.4_vuepress@2.0.0-rc.14_@vuepress+bundle_6atphkjcjyz2rhrovpxinkbwga/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import Badge from "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_typescript@5.5.4_vuepress@2.0.0-rc.14_@vuepress+bundle_6atphkjcjyz2rhrovpxinkbwga/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import VPCard from "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_typescript@5.5.4_vuepress@2.0.0-rc.14_@vuepress+bundle_6atphkjcjyz2rhrovpxinkbwga/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
 
-import "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_vuepress@2.0.0-rc.14_@vuepress+bundler-vite@2.0.0-rc.1_x2hhkf5k5v5e6vmvy456np4tku/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/Users/liuguanglu/igloo/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.52_typescript@5.5.4_vuepress@2.0.0-rc.14_@vuepress+bundle_6atphkjcjyz2rhrovpxinkbwga/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
