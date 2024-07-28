@@ -1,6 +1,6 @@
 ---
 title: 类比推理
-icon: fingerprint
+icon: ruler-combined
 ---
 
 [【腾讯文档】条件推理.pdf](https://docs.qq.com/pdf/DRXNab3l4cUNjcW9h)

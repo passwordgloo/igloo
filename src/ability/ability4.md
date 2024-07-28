@@ -1,6 +1,6 @@
 ---
-title: 必然性推理
-icon: flag-swallowtail
+title: 可能性推理
+icon: arrow-up-right-dots
 ---
 
-[【腾讯文档】necessarily.pdf](https://docs.qq.com/pdf/DRWRwbVZmcFdJUXhT)
+[【腾讯文档】possibility.pdf](https://docs.qq.com/pdf/DRUpUUnFVRW1ucEhX)

@@ -4,22 +4,22 @@ export default navbar([
   "/",
   {
     text: "常识",
-    icon: "book",
+    icon: "bookmark",
     link: "/common/",
   },
   {
     text: "行测",
-    icon: "book",
+    icon: "vials",
     link: "/ability/",
   },
   {
     text: "时政",
-    icon: "book",
+    icon: "landmark",
     link: "/current/",
   },
   {
     text: "申论",
-    icon: "book",
+    icon: "paperclip",
     link: "/paper/",
   }
 ]);

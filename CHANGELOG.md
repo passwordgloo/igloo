@@ -11,6 +11,11 @@
 * 切换回单语言博客样式，更新导航和侧边栏样式 ([d12d615](https://gitee.com/passwordgloo/igloo/commits/d12d6159e33490ee427bab3cd724c19f0fc54a6a))
 
 
+### Reverts
+
+* 删除workflow ([89e5e72](https://gitee.com/passwordgloo/igloo/commits/89e5e728e84c67f9b6ccb96679a1838efb4429a2))
+
+
 ### BREAKING CHANGES
 
 * **修复部署失败问题:** 无
