@@ -7,13 +7,13 @@ export default hopeTheme({
   // hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "坐轩听雨",
+    name: "行者",
     url: "https://iglooblog.top",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.svg",
 
   repo: "passwordgloo/igloo",
 
@@ -36,8 +36,9 @@ export default hopeTheme({
   },
 
   blog: {
-    description: "A FrontEnd programmer",
+    description: "苔花如米小，也学牡丹开",
     intro: "/intro.html",
+    avatar:"avatar.png",
     medias: {
       Baidu: "https://example.com",
       BiliBili: "https://example.com",
@@ -144,7 +145,7 @@ export default hopeTheme({
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+      gfm: true,
 
       // install katex before enabling it
       // katex: true,

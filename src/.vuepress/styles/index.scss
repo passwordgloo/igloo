@@ -1,1 +1,64 @@
 // place your custom styles here
+$sub-color: #8e8e8e;
+$blockquote-color:none;
+
+html {
+    cursor: url(/light/pointer.cur),pointer;
+    // scrollbar-color:$sub-color rgba(0, 0, 0, 0.2);
+    // scrollbar-width: auto;
+}
+
+// blockquote style , default single color
+
+@mixin blockquote-common {
+    border: 8px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+
+@mixin blockquote-img {
+    display: inline-block;
+    position: relative;
+    transform: translateX(-3px);
+    vertical-align: middle;
+    height: 1rem;
+    margin-right: .2rem;
+    overflow: hidden;
+}
+
+blockquote[alt="black"] {
+    @include blockquote-common(); 
+    background-image: linear-gradient(to right, #596164, #868f96), linear-gradient(90deg, #596164, #868f96); 
+    color: white;
+    img {
+        @include blockquote-img();
+    }
+}
+
+blockquote[alt="orange"]{
+    @include blockquote-common(); 
+    background-image: linear-gradient(to right, #fc6076, #ff9a44), linear-gradient(90deg, #fc6076, #ff9a44); 
+    color: white;
+    img {
+        @include blockquote-img();
+    }
+}
+
+blockquote[alt="blue"]{
+    @include blockquote-common();
+    background-image: linear-gradient(to right, #4481eb, #04befe), linear-gradient(90deg, #4481eb, #04befe); 
+    color: white;
+    img {
+        @include blockquote-img();
+    }
+}
+
+blockquote[alt="green"]{
+    @include blockquote-common(); 
+    background-image: linear-gradient(to right, #0ba360, #8ed451), linear-gradient(90deg, #0ba360, #8ed451); 
+    color: white;
+    img {
+        @include blockquote-img();
+    }
+}
