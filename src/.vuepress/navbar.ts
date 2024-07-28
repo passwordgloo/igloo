@@ -1,4 +1,5 @@
 import { navbar } from "vuepress-theme-hope";
+import { version } from '../../package.json'
 
 export default navbar([
   "/",
@@ -21,5 +22,10 @@ export default navbar([
     text: "申论",
     icon: "paperclip",
     link: "/paper/",
+  },
+  {
+    text: `${version}`,
+    icon: 'clipboard-list',
+    link: '/CHANGELOG.md'
   }
 ]);
