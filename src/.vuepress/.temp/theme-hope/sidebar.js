@@ -1,1 +1,0 @@
-export const sidebarData = {"/ability/":["ability3","ability4","ability1","ability2"],"/common/":["common3","common1","common2"],"/current/":["current5","current4","current1","current2","current3"],"/paper/":["paper3","paper1","paper2"]};

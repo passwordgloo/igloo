@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  // hostname: "https://mister-hope.github.io",
+  hostname: "https://fly.iglooblog.top",
 
   author: {
     name: "行者",
@@ -18,6 +18,8 @@ export default hopeTheme({
   repo: "passwordgloo/igloo",
 
   docsDir: "src",
+
+  docsBranch: "master",
 
   // navbar
   navbar,
@@ -38,7 +40,7 @@ export default hopeTheme({
   blog: {
     description: "苔花如米小，也学牡丹开",
     intro: "/intro.html",
-    avatar:"avatar.png",
+    avatar: "avatar.png",
     medias: {
       Baidu: "https://example.com",
       BiliBili: "https://example.com",
@@ -228,5 +230,16 @@ export default hopeTheme({
     //     ],
     //   },
     // },
-  },
-});
+    watermark: {
+      enabled: false,
+    },
+
+    readingTime: {
+      wordPerMinute: 120
+    }
+  }
+
+},
+{
+custom: true
+})
