@@ -1,5 +1,6 @@
 ---
 icon: clipboard-list
+article: false
 ---
 
 # 日志

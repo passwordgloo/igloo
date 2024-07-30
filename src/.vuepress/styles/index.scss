@@ -11,8 +11,9 @@ html {
 // blockquote style , default single color
 
 @mixin blockquote-common {
-    border: 8px solid transparent;
-    border-radius: 8px;
+    color: white;
+    border: 5px solid transparent;
+    border-radius: 5px;
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
 }
@@ -27,37 +28,48 @@ html {
     overflow: hidden;
 }
 
-blockquote[alt="black"] {
+blockquote,html[data-theme=dark] blockquote{
+    @include blockquote-common(); 
+    img {
+        @include blockquote-img();
+    }
+}
+
+blockquote[alt="black-alt"] {
     @include blockquote-common(); 
     background-image: linear-gradient(to right, #596164, #868f96), linear-gradient(90deg, #596164, #868f96); 
-    color: white;
     img {
         @include blockquote-img();
     }
 }
 
-blockquote[alt="orange"]{
+blockquote[alt="orange-alt"]{
     @include blockquote-common(); 
     background-image: linear-gradient(to right, #fc6076, #ff9a44), linear-gradient(90deg, #fc6076, #ff9a44); 
-    color: white;
     img {
         @include blockquote-img();
     }
 }
 
-blockquote[alt="blue"]{
+blockquote[alt="blue-alt"]{
     @include blockquote-common();
     background-image: linear-gradient(to right, #4481eb, #04befe), linear-gradient(90deg, #4481eb, #04befe); 
-    color: white;
     img {
         @include blockquote-img();
     }
 }
 
-blockquote[alt="green"]{
+blockquote[alt="green-alt"]{
     @include blockquote-common(); 
     background-image: linear-gradient(to right, #0ba360, #8ed451), linear-gradient(90deg, #0ba360, #8ed451); 
-    color: white;
+    img {
+        @include blockquote-img();
+    }
+}
+
+blockquote[alt="purple-alt"]{
+    @include blockquote-common(); 
+    background-image: linear-gradient(to right, #8F41E9, #578AEF), linear-gradient(90deg, #8F41E9, #578AEF); 
     img {
         @include blockquote-img();
     }
