@@ -3,6 +3,7 @@ home: true
 index: false
 icon: bookmark
 heroText: 常识
+text: 常识
 tagline: 这既是常识，也是共识✨
 features:
   - title: 历史
