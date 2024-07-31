@@ -3,18 +3,18 @@ home: true
 index: false
 icon: bookmark
 heroText: 常识
-text: 常识
+title: 常识
 tagline: 这既是常识，也是共识✨
 features:
-  - title: 历史
+  - title: 中国历史
     icon: fab fa-markdown
-    details: 从石器时代到现代文明
+    details: 从农耕文明到现代文明
     link: /common/history
 
-  - title: 幻灯片页面
+  - title: 文学常识
     icon: person-chalkboard
     details: 添加幻灯片页面以显示你喜欢的内容
-    link: /zh/guide/layout/slides
+    link: /common/literary
 
   - title: 布局增强
     icon: object-group
@@ -90,7 +90,6 @@ features:
     icon: ellipsis
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: /zh/guide/feature/
-
 copyright: false
 footer: MIT Licensed | Copyright © 2019-present Mr.Hope
 ---
