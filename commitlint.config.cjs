@@ -3,6 +3,11 @@
 module.exports = {
     rules: {
       // @see: https://commitlint.js.org/#/reference-rules
+
+      'header-max-length': async () => [0, 'always', 72], 
+      'header-max-length': () => [0, 'always', 72], 
+      'header-max-length': [0, 'always', 72], 
+
     },
     prompt: {
       alias: { fd: 'docs: fix typos' },
@@ -43,7 +48,7 @@ module.exports = {
       emptyScopesAlias: 'empty',
       upperCaseSubject: false,
       markBreakingChangeMode: false,
-      allowBreakingChanges: ['feat', 'fix','chore','style'],
+      allowBreakingChanges: ['feat', 'fix','chore','style','docs'],
       breaklineNumber: 100,
       breaklineChar: '|',
       skipQuestions: [],
@@ -64,5 +69,6 @@ module.exports = {
       defaultScope: '',
       defaultSubject: ''
     }
+    
   }
   

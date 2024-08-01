@@ -3,15 +3,12 @@ icon: clipboard-list
 article: false
 ---
 
-# 日志
-
-## 0.0.2 (2024-07-28)
+## 0.0.3 (2024-08-01)
 
 
 ### Bug Fixes
 
 * **修复部署失败问题:** 修复缺少必要文件导致部署失败问题 ([b8f264b](https://gitee.com/passwordgloo/igloo/commits/b8f264bd696a46635347d9d4dfa179863f383e41))
-
 
 ### Features
 
@@ -22,6 +19,7 @@ article: false
 ### Performance Improvements
 
 * 更新导航条和侧边栏图标 ([8dc856e](https://gitee.com/passwordgloo/igloo/commits/8dc856eeeed9f783be29016b6261e5a2097360f5))
+* **图标美化:** 添加导航栏、目录图标 ([cf676ba](https://gitee.com/passwordgloo/igloo/commits/cf676bae84c0e5c83ff1d3af880bbbd7df6477aa))
 
 
 ### Reverts
@@ -29,8 +27,14 @@ article: false
 * 删除workflow ([89e5e72](https://gitee.com/passwordgloo/igloo/commits/89e5e728e84c67f9b6ccb96679a1838efb4429a2))
 
 
+### Styles
+
+* 历史内更新到秦汉时期 ([c5b9011](https://gitee.com/passwordgloo/igloo/commits/c5b9011cb40dd07f9af0846a773a7cef96f137a6))
+
+
 ### BREAKING CHANGES
 
+* 无
 * **添加每日一句、水印插件:** 移除.temp文件夹
 🗑️  移除.DS_Store
 ⏭️  修改分支名

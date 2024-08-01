@@ -11,7 +11,7 @@ features:
     details: 从农耕文明到现代文明
     link: /common/history
 
-  - title: 文学常识
+  - title: 中国文学
     icon: person-chalkboard
     details: 添加幻灯片页面以显示你喜欢的内容
     link: /common/literary
