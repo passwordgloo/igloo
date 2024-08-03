@@ -74,3 +74,40 @@ blockquote[alt="purple-alt"]{
         @include blockquote-img();
     }
 }
+
+li::marker {
+    color: $sub-color;
+}
+
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: $sub-color;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+// dark mode
+html[data-theme=dark]{
+    cursor: url(/dark/pointer.cur),auto;
+    blockquote {
+        @include blockquote-common();
+    }
+}
+
+em {
+    font-style: normal;
+    border-bottom: 4px dotted $sub-color;
+}
+
+u {
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: $sub-color;
+}
+
+strong {
+    color: $sub-color;
+}

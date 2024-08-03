@@ -16,10 +16,10 @@ features:
     details: 添加幻灯片页面以显示你喜欢的内容
     link: /common/literary
 
-  - title: 布局增强
+  - title: 法理学
     icon: object-group
     details: 添加路径导航、页脚、改进的导航栏、改进的页面导航等。
-    link: /zh/guide/layout/
+    link: /common/jurisprudence
 
   - title: 浏览量与评论
     icon: comment-dots
