@@ -1,11 +1,10 @@
 ---
-icon: clipboard-list
+title: 日志
+icon: calendar-days
 article: false
 ---
 
-# 日志
-
-## 0.0.3 (2024-08-03)
+## 0.0.3 (2024-08-05)
 
 
 ### Bug Fixes
@@ -15,6 +14,7 @@ article: false
 
 ### Documentation
 
+* **常识:** 更新法理学内容 ([e21538f](https://gitee.com/passwordgloo/igloo/commits/e21538fa4f5a44a75e13d99f642e24c99c06131f))
 * 中国文学史内容更新完毕 ([b6033a6](https://gitee.com/passwordgloo/igloo/commits/b6033a6bb197e9c6156c08e28bd7fd70afd115f0))
 
 
@@ -42,6 +42,7 @@ article: false
 
 ### BREAKING CHANGES
 
+* **常识:** 无
 * 无
 * 无
 * **添加每日一句、水印插件:** 移除.temp文件夹
@@ -49,4 +50,3 @@ article: false
 ⏭️  修改分支名
 * **修复部署失败问题:** 无
 * 修改首页内容
-

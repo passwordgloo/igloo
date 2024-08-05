@@ -1,5 +1,5 @@
 ---
 index: false
-icon: vials
+icon: ghost
 ---
 # 行测

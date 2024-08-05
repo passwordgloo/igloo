@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://iglooblog.top",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "//at.alicdn.com/t/c/font_4336400_4gotyo8d3m6.css",
 
   logo: "/logo.svg",
 
@@ -108,8 +108,8 @@ export default hopeTheme({
       attrs: true,
       codetabs: true,
       component: true,
-      demo: true,
-      figure: true,
+      demo: false,
+      figure: false,
       imgLazyload: true,
       imgSize: true,
       include: true,

@@ -1,6 +1,6 @@
 ---
-title: 公文格式
-icon: highlighter
+title: 申论
+icon: pen-clip
 ---
 
-[【腾讯文档】public_article.pdf](https://docs.qq.com/pdf/DRWtVaGNpeVBIQ0Rt)
+[【腾讯文档】pen.pdf](https://docs.qq.com/pdf/DRXFQUnZvYnlzclJn)

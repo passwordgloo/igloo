@@ -1,5 +1,5 @@
 ---
 index: false
-icon: landmark
+icon: landmark-dome
 ---
 # 时政

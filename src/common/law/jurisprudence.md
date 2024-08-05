@@ -1,6 +1,6 @@
 ---
 title: 法理学
-icon: tags
+icon: bookmark
 ---
 
 ## 法的概述

@@ -8,6 +8,8 @@ const __dirname = getDirname(import.meta.url);
 export default defineUserConfig({
   base: "/",
 
+  markdown:{},
+
   // lang: "en-US",
   lang:"zh-CN",
   title: "回声嘹亮",
@@ -20,7 +22,7 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue",
     ),
-  }
+  },
 
   // Enable it with pwa
   // shouldPrefetch: false,
