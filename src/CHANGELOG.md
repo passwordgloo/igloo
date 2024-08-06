@@ -4,8 +4,7 @@ icon: calendar-days
 article: false
 ---
 
-## 0.0.3 (2024-08-05)
-
+## 0.0.4 (2024-08-06)
 
 ### Bug Fixes
 
@@ -15,6 +14,7 @@ article: false
 ### Documentation
 
 * **常识:** 更新法理学内容 ([e21538f](https://gitee.com/passwordgloo/igloo/commits/e21538fa4f5a44a75e13d99f642e24c99c06131f))
+* **常识:** 修改布局 ([d6b6eb5](https://gitee.com/passwordgloo/igloo/commits/d6b6eb5258e5ed2f1295a33503b2c6bff5dda1b0))
 * 中国文学史内容更新完毕 ([b6033a6](https://gitee.com/passwordgloo/igloo/commits/b6033a6bb197e9c6156c08e28bd7fd70afd115f0))
 
 
@@ -42,6 +42,13 @@ article: false
 
 ### BREAKING CHANGES
 
+* **常识:** 🆕 更新主题版本
+
+🖼️  图标换用iconfont
+
+🧭 导航栏布局修改
+
+📔 更新日志
 * **常识:** 无
 * 无
 * 无
@@ -50,3 +57,8 @@ article: false
 ⏭️  修改分支名
 * **修复部署失败问题:** 无
 * 修改首页内容
+
+
+
+
+

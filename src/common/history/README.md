@@ -8,27 +8,27 @@ index: false
 features:
   - title: 中国古代政治
     icon: landmark-dome
-    details: 法的精神
     link: /common/history/politics.html
 
   - title: 中国古代科技
     icon: fan
-    details: 法的精神
     link: /common/history/technical.html
 
   - title: 中国古代文学
     icon: fan
-    details: 法的精神
-    link: /common/historyliterary.html
+    link: /common/history/literary.html
+
+  - title: 中国文化艺术
+    icon: fan
+    link: /common/history/culture.html
 
   - title: 中国近代史
     icon: fan
-    details: 法的精神
     link: https://doc.iglooblog.top/blogs/politics/history1.html
 
   - title: 世界史
     icon: fan
-    details: 宪法是国家的根本大法
+    link: /common/history/world.html
 ---
 
 ## 中国朝代歌
